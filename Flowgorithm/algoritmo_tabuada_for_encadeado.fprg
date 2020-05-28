@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="menuu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-27 04:50:57 "/>
+        <attribute name="created" value="bWVudXU7TEFQVE9QLU0xUEMyNlZFOzIwMjAtMDUtMjc7IjA0OjI5OjM2ICI7Mjc5Mg=="/>
+        <attribute name="edited" value="bWVudXU7TEFQVE9QLU0xUEMyNlZFOzIwMjAtMDUtMjc7IjA0OjUwOjU3ICI7MTsyODk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tabuada, numero, resultado" type="Integer" array="False" size=""/>
+            <declare name="tabela" type="String" array="False" size=""/>
+            <assign variable="tabuada" expression="1"/>
+            <for variable="tabuada" start="1" end="10" direction="inc" step="1">
+                <for variable="numero" start="1" end="10" direction="inc" step="1">
+                    <assign variable="resultado" expression="tabuada * numero"/>
+                    <output expression="tabuada &amp; &quot; x &quot; &amp; numero &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
